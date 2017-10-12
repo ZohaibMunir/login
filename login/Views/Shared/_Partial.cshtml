@@ -1,0 +1,30 @@
+﻿@model login.Models.loginform
+
+    <tr>
+        <td>
+            <h4>@Model.First_name</h4>
+        </td>
+        <td>
+            <h4>
+                @Model.Last_name
+            </h4></td>
+        <td>
+            <span>@Model.age</span>
+        </td>
+        <td>
+            <span>@Model.Contact_no</span>
+        </td>
+        <td>
+            <div>@Model.email</div>
+        </td>
+        <td>
+            <span class="right">
+                @Html.ActionLink("Edit", "Edit", new { id = Model.ID })
+            </span>
+           
+             |
+            @Html.ActionLink("Details", "Details", new { id=Model.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=Model.ID })
+        </td>
+    </tr>
+

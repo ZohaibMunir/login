@@ -29,5 +29,9 @@ namespace login.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<login.Models.loginform> loginforms { get; set; }
+
+        public System.Data.Entity.DbSet<login.Models.Class1> Class1 { get; set; }
     }
 }
