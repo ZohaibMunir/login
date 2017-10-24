@@ -80,5 +80,5 @@ C:\Users\Zohaib\Documents\GitHub\login\login\bin\Microsoft.Owin.Security.Microso
 C:\Users\Zohaib\Documents\GitHub\login\login\obj\Debug\login.csprojResolveAssemblyReference.cache
 C:\Users\Zohaib\Documents\GitHub\login\login\obj\Debug\login.dll
 C:\Users\Zohaib\Documents\GitHub\login\login\obj\Debug\login.pdb
-C:\Users\Zohaib\Documents\GitHub\login\login\obj\Debug\login.Migrations.Zohaib.resources
+C:\Users\Zohaib\Documents\GitHub\login\login\obj\Debug\login.Migrations.initial.resources
 C:\Users\Zohaib\Documents\GitHub\login\login\obj\Debug\login.csproj.GenerateResource.Cache

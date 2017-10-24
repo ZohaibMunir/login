@@ -7,13 +7,13 @@ namespace login.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Zohaib : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Zohaib));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710121317469_Zohaib"; }
+            get { return "201710181035230_initial"; }
         }
         
         string IMigrationMetadata.Source

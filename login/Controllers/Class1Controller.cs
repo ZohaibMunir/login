@@ -46,7 +46,7 @@ namespace login.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,name,Last_name")] Class1 class1)
+        public ActionResult Create([Bind(Include = "ID,name,Last_name,email,myemail")] Class1 class1)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace login.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,name,Last_name")] Class1 class1)
+        public ActionResult Edit([Bind(Include = "ID,name,Last_name,email,myemail")] Class1 class1)
         {
             if (ModelState.IsValid)
             {

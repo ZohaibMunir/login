@@ -3,18 +3,19 @@ namespace login.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Zohaib : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.Class1",
+                "dbo.Class1",//due to this i think it happens
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
                         name = c.String(),
                         Last_name = c.String(),
                         email = c.String(),
+                        myemail = c.String(),
                     })
                 .PrimaryKey(t => t.ID);
             

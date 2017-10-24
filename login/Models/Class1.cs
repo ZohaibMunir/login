@@ -11,5 +11,6 @@ namespace login.Models
         public string name { get; set; }
         public string Last_name { get; set; }
         public string email { get; set; }
+        public string myemail { get; set; }
     }
 }
